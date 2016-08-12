@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>form</title>
+    <link rel="stylesheet" href="styles/normalize.css" charset="utf-8">
+    <link href="styles/font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css" charset="utf-8">
+    <link rel="stylesheet" href="styles/form.css" charset="utf-8">
+    <script src="js/main.js"></script>
+  </head>
+
+  <body>
+    <form class="comment-form">
+      <div>
+        Name:
+        <input class="comment-form--input" type="text" placeholder="Kate" required name="name">
+      </div>
+      <div>
+        Email:
+        <input class="comment-form--input" type="email" placeholder="kateryna@gmail.com" name="email" required>
+      </div>
+      <div>
+        Comment:
+        <textarea class="comment-form--input comment-form--comment" placeholder="Type a comment here" required name="comment"></textarea>
+      </div>
+      <input class="comment-form--submit" type="submit" value="Submit">
+    </form>
+    <div class="comment-list"></div>
+  </body>
+
+</html>
